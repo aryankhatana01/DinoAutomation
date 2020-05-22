@@ -1,4 +1,6 @@
 # DinoAutomation
+Can be played online at:-  chrome://dino/
+
 Notes:-
 
 1) This would only work with light theme in Google chrome because with the dark theme the cactuses are white and background is black.
