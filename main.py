@@ -7,7 +7,7 @@ def hit(key):
     return
 
 def whenhitting(data):
-    
+
     for i in range(300, 370):
         for j in range(410, 563):
             if data[i, j] < 100:
@@ -16,9 +16,9 @@ def whenhitting(data):
 
     for i in range(300, 415):  # These are coordinates of the Rectangle in the +ve(x) axis direction
         for j in range(563, 650):  # These are coordinates of the Rectangle in the (-ve)y axis direction
-        
-        '''First pixel is colored black at (300,563) coordinate, 2nd pixel at (300,564) coordinate and so on
-           after that (301,563) then (301,564) and so on last pixel is colored at (415,650)'''
+
+        # First pixel is colored black at (300,563) coordinate, 2nd pixel at (300,564) coordinate and so on after that (301,563) then (301,564) and so on last pixel is colored at (415,650)
+
             if data[i, j] < 100:
                 hit("up")
                 return
